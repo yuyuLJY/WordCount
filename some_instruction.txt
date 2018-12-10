@@ -1,6 +1,5 @@
-export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-1¡¢±àÒë
-javac -classpath /home/brian/usr/hadoop/hadoop-1.2.1/hadoop-core-1.2.1.jar:/home/brian/usr/hadoop/hadoop1.2.1/lib/commons-cli-1.2.jar -d ./classes/ ./src/*.java
-2¡¢´ò°ü
-jar -cvf wordcount.jar -C ./classes/ .
-3¡¢ 
+
+javac -classpath /home/nancy/usr/hadoop/hadoop-2.9.2/hadoop-core-1.2.1.jar:/home/nancy/usr/hadoop/hadoop-2.9.2/share/hadoop/common/lib/commons-cli-1.2.jar -d ./classes/ ./src/*.java
+
+3.7.5
+./bin/hadoop jar /home/nancy/wordcount_01/wordcount.jar com.nancy.hadoop.WordCount /readme.txt /output1
